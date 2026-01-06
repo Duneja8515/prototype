@@ -1,0 +1,558 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\API\\API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\duneja8515\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\NuGet.Config",
+          "C:\\Users\\duneja8515\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Application\\Billing.Application.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Application\\Billing.Application.csproj"
+              },
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\Billing.Domain.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\Billing.Domain.csproj"
+              },
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Infrastructure\\Infrastructure.csproj"
+              },
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Application\\Shipping.Application.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Application\\Shipping.Application.csproj"
+              },
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\Shipping.Domain.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\Shipping.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Application\\Billing.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Application\\Billing.Application.csproj",
+        "projectName": "Billing.Application",
+        "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Application\\Billing.Application.csproj",
+        "packagesPath": "C:\\Users\\duneja8515\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\NuGet.Config",
+          "C:\\Users\\duneja8515\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\Billing.Domain.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\Billing.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\Billing.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\Billing.Domain.csproj",
+        "projectName": "Billing.Domain",
+        "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\Billing.Domain.csproj",
+        "packagesPath": "C:\\Users\\duneja8515\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\NuGet.Config",
+          "C:\\Users\\duneja8515\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\SharedKernel\\SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\duneja8515\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\NuGet.Config",
+          "C:\\Users\\duneja8515\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Application\\Billing.Application.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Application\\Billing.Application.csproj"
+              },
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\Billing.Domain.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Billing.Domain\\Billing.Domain.csproj"
+              },
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\Shipping.Domain.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\Shipping.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\SharedKernel\\SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\SharedKernel\\SharedKernel.csproj",
+        "projectName": "SharedKernel",
+        "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\SharedKernel\\SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\duneja8515\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\NuGet.Config",
+          "C:\\Users\\duneja8515\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Application\\Shipping.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Application\\Shipping.Application.csproj",
+        "projectName": "Shipping.Application",
+        "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Application\\Shipping.Application.csproj",
+        "packagesPath": "C:\\Users\\duneja8515\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\NuGet.Config",
+          "C:\\Users\\duneja8515\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Infrastructure\\Infrastructure.csproj"
+              },
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\Shipping.Domain.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\Shipping.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\Shipping.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\Shipping.Domain.csproj",
+        "projectName": "Shipping.Domain",
+        "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\Shipping.Domain.csproj",
+        "packagesPath": "C:\\Users\\duneja8515\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\Shipping.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\NuGet.Config",
+          "C:\\Users\\duneja8515\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\SharedKernel\\SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\duneja8515\\Desktop\\bhavya\\OAK\\test\\SharedKernel\\SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

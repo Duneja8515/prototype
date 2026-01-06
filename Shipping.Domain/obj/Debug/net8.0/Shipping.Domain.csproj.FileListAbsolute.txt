@@ -1,0 +1,15 @@
+c:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\bin\Debug\net8.0\Shipping.Domain.deps.json
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\bin\Debug\net8.0\Shipping.Domain.dll
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\bin\Debug\net8.0\Shipping.Domain.pdb
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\bin\Debug\net8.0\SharedKernel.dll
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\bin\Debug\net8.0\SharedKernel.pdb
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\Shipping.Domain.csproj.AssemblyReference.cache
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\Shipping.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\Shipping.Domain.AssemblyInfoInputs.cache
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\Shipping.Domain.AssemblyInfo.cs
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\Shipping.Domain.csproj.CoreCompileInputs.cache
+c:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\Shipping.E0F0470B.Up2Date
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\Shipping.Domain.dll
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\refint\Shipping.Domain.dll
+C:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\Shipping.Domain.pdb
+c:\Users\duneja8515\Desktop\bhavya\OAK\test\Shipping.Domain\obj\Debug\net8.0\ref\Shipping.Domain.dll
